@@ -1,0 +1,65 @@
+body{
+    /*background: -webkit-radial-gradient(center, ellipse cover,grey 20%,black 80%); */
+    color: #000;
+    height:calc(100vh);
+width:100%;
+}
+
+form input[type="text"], input[type="password"],input[type="date"]
+{
+    background-color: #fff;
+	border-radius: 5px 5px 5px 5px;
+	color: #000;
+	margin-bottom: 1em;
+	padding: 0 16px;
+    width: 250px;
+    height:50px;
+    margin:20px;
+    
+}
+
+form input[type="radio"]
+{
+    margin:20px;
+    color:black;
+    
+}
+form input[type="submit"]
+{
+    border-radius: 6px;
+    
+    background-color: #000000;
+    color: #eee;
+    font-weight: bold;
+    /* margin-bottom: 2em; */
+    text-transform: uppercase;
+    padding: 10px;
+    
+    margin:20px;
+
+}
+
+a{
+    margin:10px;
+    
+}
+
+.navbar{
+    background-color: black;
+    color: gray;
+
+    
+}
+
+
+table{
+    margin-top:550px;
+}
+
+
+
+form input[type="submit"]:hover{
+     background-color:#d44179;
+ }
+
+ 

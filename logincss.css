@@ -1,0 +1,31 @@
+body{
+  color:black;
+  
+}
+.container{
+max-width: 400px;
+margin: 50px auto;
+background:white;
+border-radius: 5px;
+box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+} 
+
+input{
+ margin:20px;
+ border-radius:4px;
+ height:40px;
+}
+form input[type="submit"]
+{
+ background-color: black;
+ color:white;
+ border-radius:4px;
+}
+form input[type="submit"]:hover{
+  background-color: #d44179;
+}
+
+.col-sm-12{
+  display: inline;
+  text-align: center;
+}
